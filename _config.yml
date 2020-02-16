@@ -27,3 +27,6 @@ languages: ['ja', 'ko', 'en']
 default_lang: 'ja'
 exclude_from_localization: ['javascript', 'images', 'css']
 parallel_localization: false
+
+sass:
+    sass_dir: _sass /hoosegow/.bundle/ruby/2.5.0/gems/jekyll-theme-primer-0.5.4/_sass
