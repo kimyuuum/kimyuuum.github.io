@@ -1,32 +1,26 @@
-title:              Clean Blog
-email:              yuuum.kim@kakao.com
-description:        Tech Blog
-author:             kimyuuum
-baseurl:            ""
-url:                "https://kimyuuum.github.io"
+title: Yuuum.log
+email: dbals4818@gmail.com
+description:
+author: kimyuuum
+baseurl: ""
+url: "https://kimyuuum.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    kimyuuum
-facebook_username:  StartBootstrap
+twitter_username:
+github_username: kimyuuum
+facebook_username:
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics: UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
-  
-languages: ['ja', 'ko', 'en']
-default_lang: 'ja'
-exclude_from_localization: ['javascript', 'images', 'css']
-parallel_localization: false
+    - jekyll-feed
+    - jekyll-paginate
+    - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
-sass:
-    sass_dir: _sass /hoosegow/.bundle/ruby/2.5.0/gems/jekyll-theme-primer-0.5.4/_sass
+css: /assets/css/syntax.css
