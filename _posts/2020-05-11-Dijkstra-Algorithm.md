@@ -46,7 +46,7 @@ Dijkstra(G,r){ // G = Graph, r = start node
 }
 
 extractMin(Q,d[]){
-  집합 Q에서 d값이 가장 작은 u를 return한다.
+  //집합 Q에서 d값이 가장 작은 u를 return한다.
 }
 
 ```
@@ -75,7 +75,7 @@ extractMin(Q,d[]){
 
 **Priority Queue(Heap)을 사용하여 구현 가능하다.** 
 
-Time Complexity : O(Elog)V
+Time Complexity : O(ElogV)
 
 Min Heap을 이용하면, 가장 적은 경로를 가진 정점이 나오도록 구현 가능하다.
 
