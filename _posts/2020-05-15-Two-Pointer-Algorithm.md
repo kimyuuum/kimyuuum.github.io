@@ -66,21 +66,23 @@ date:	2020-05-15 15:25:00
 
 
 ``` c++
+
 while(1){
-  if(sum >= num){
-    left++;
-    sum -= arr[left];
-  }else if(right == n){
-    break;
-  }else{
-    right++;
-    sum += arr[right];
+    if(sum >= num){
+      left++;
+      sum -= arr[left];
+    }else if(right == n){
+      break;
+    }else{
+      right++;
+      sum += arr[right];
+    }
+
+    if(sum == num){
+      //특정 조건 만족
+    }
   }
-  
-  if(sum == num){
-    //특정 조건 만족
-  }
-}
+
 ```
 
 
