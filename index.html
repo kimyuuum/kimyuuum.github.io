@@ -2,3 +2,13 @@
 layout: home
 background: "#89abe3"
 ---
+
+"{"% for post in paginator.posts %"}"
+<article class="post">
+  <div class="post-content">
+    <h2 class="post-title"><a href=""></a></h2>
+    <p></p>
+    <span class="post-date">&nbsp;&nbsp;&nbsp;</span>
+  </div>
+</article>
+"{"% endfor %"}" "{"% include pagination.html %"}"
