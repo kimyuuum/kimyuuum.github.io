@@ -1,5 +1,5 @@
 ---
 layout:	category
-title: computer science
+title: ComputerScience
 ---
 

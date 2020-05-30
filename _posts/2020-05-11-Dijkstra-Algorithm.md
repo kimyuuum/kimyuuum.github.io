@@ -2,7 +2,7 @@
 layout:	post
 title:	"Dijkstra Algorithm"
 date:	2020-05-11 03:25:00
-category: [ computer science ]
+category: [ComputerScience]
 ---
 
 

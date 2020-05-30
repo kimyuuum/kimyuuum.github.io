@@ -1,5 +1,5 @@
 ---
 
 layout: category
-title: algorithm
+title: Algorithm
 ---

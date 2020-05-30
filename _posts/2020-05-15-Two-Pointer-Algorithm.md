@@ -2,7 +2,7 @@
 layout:	post
 title:	"Two Pointer Algorithm"
 date:	2020-05-15 15:25:00
-category: [ computer science ]
+category: [ComputerScience]
 ---
 
 
