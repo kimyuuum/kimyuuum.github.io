@@ -15,17 +15,17 @@ category: [computerscience]
 
 **매번 연속된 두개의 인덱스를 비교하여 조건에 맞게 위치를 바꾸는 정렬.**
 
-### Time Complexity 
+#### Time Complexity 
 
 + O(N^2)
 
-### Space Complexity
+#### Space Complexity
 
 + O(N)
 
+<br/>
 
-
-### FLOW
+#### FLOW
 
 1. 현재 인덱스 값과 바로 이전 인덱스 값을 비교한다.
 2. 이전 idx에 있는 원소가 더 크면 둘의 위치를 변경한다.
@@ -34,8 +34,6 @@ category: [computerscience]
 <br/>
 
 ---------------------
-
-<br/>
 
 <br/>
 

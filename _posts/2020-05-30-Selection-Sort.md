@@ -16,17 +16,17 @@ category: [computerscience]
 
 **해당 원소에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 정렬**
 
-### Time Complexity 
+#### Time Complexity 
 
 + O(N^2)
 
-### Space Complexity
+#### Space Complexity
 
 + O(N)
 
+<br/>
 
-
-### FLOW
+#### FLOW
 
 1. 주어진 원소 중에서 가장 작은 원소를 찾는다.
 2. 그 값을 맨 앞에 위치한 원소와 교체한다.
@@ -35,8 +35,6 @@ category: [computerscience]
 <br/>
 
 ---------------------
-
-<br/>
 
 <br/>
 
@@ -64,7 +62,7 @@ unstable한 정렬이다.
 
 => 2 4 5(2) 5(1) 3
 
-첫번째 5가 정렬 후 뒤로 가기 때문에, 값이 같은 레코드가 있는 경우 상대적 위치기 변경될 수도 있으므로 unstable한 정렬이다.
+첫번째 5가 정렬 후 뒤로 가기 때문에, `값이 같은 레코드가 있는 경우` 상대적 위치가 변경될 수도 있으므로 unstable한 정렬이다.
 
 <br/>
 
