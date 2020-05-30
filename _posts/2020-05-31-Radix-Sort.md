@@ -18,7 +18,7 @@ category: [computerscience]
 
 
 
-**입력이 모두 K이하의 자리수를 가진 자연수인 특수한 경우에 사용 가능하다. ** 
+**입력이 모두 K이하의 자리수를 가진 자연수인 특수한 경우에 사용 가능하다.** 
 
 
 
@@ -56,53 +56,53 @@ category: [computerscience]
 
 ``` c++
 
-#include <iostream>
-#include <queue>
-#include <vector>
-using namespace std;
-vector<int> v = {152, 73, 69, 41, 28, 1247, 2, 33, 674, 388};
-queue<int> q[10];
+  #include <iostream>
+  #include <queue>
+  #include <vector>
+  using namespace std;
+  vector<int> v = {152, 73, 69, 41, 28, 1247, 2, 33, 674, 388};
+  queue<int> q[10];
 
-int main() {
-  int max = 1;
-  for (int i = 0; i < v.size(); i++) {
-    if (max < v[i]) {
-      while (max < v[i]) {
-        max *= 10;
-      }
-    }
-  }
-
-  int mod = 10;
-
-  while (mod <= max) {
+  int main() {
+    int max = 1;
     for (int i = 0; i < v.size(); i++) {
-      if (mod > v[i]) {
-        q[0].push(v[i]);
-      } else {
-        int num = (v[i] / mod) % 10;
-        q[num].push(v[i]);
-      }
-    }
-
-    int idx = 0;
-    for (int i = 0; i < 10; i++) {
-      if (!q[i].empty()) {
-        while (!q[i].empty()) {
-          v[idx] = q[i].front();
-          q[i].pop();
-          idx++;
+      if (max < v[i]) {
+        while (max < v[i]) {
+          max *= 10;
         }
       }
     }
-    mod *= 10;
-  }
 
-  for (int i = 0; i < v.size(); i++) {
-    cout << v[i] << " ";
+    int mod = 10;
+
+    while (mod <= max) {
+      for (int i = 0; i < v.size(); i++) {
+        if (mod > v[i]) {
+          q[0].push(v[i]);
+        } else {
+          int num = (v[i] / mod) % 10;
+          q[num].push(v[i]);
+        }
+      }
+
+      int idx = 0;
+      for (int i = 0; i < 10; i++) {
+        if (!q[i].empty()) {
+          while (!q[i].empty()) {
+            v[idx] = q[i].front();
+            q[i].pop();
+            idx++;
+          }
+        }
+      }
+      mod *= 10;
+    }
+
+    for (int i = 0; i < v.size(); i++) {
+      cout << v[i] << " ";
+    }
+    return 0;
   }
-  return 0;
-}
 
 ```
 
