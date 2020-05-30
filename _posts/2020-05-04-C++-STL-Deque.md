@@ -2,7 +2,7 @@
 layout:	post
 title:	"c++ STL - Deque"
 date:	2020-05-04 22:25:00
-
+category: [ computer science ]
 ---
 
 
