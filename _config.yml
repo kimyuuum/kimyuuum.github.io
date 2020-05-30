@@ -26,3 +26,4 @@ plugins:
 
 css: /assets/syntax.css
 disqus_shortname: "kimyuuum"
+category_list: [algorithm, computer science]
