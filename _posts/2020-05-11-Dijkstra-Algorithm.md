@@ -9,7 +9,7 @@ category: [computerscience]
 
 
 
-## [Dijkstra Algorithm]
+## [Algorithm] Dijkstra Algorithm
 
 <br/>
 
