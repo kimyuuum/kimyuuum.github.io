@@ -4389,7 +4389,30 @@ readers do not read off random characters that represent icons */
   font-display: auto;
   src: url("../webfonts/fa-solid-900.eot");
   src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
-
+  @font-face {
+    font-family: 'D2 coding';
+    font-style: normal;
+    font-weight: 400;
+    src: url('D2Coding.eot');
+    src: local('※'), local('D2Coding'),
+         url('D2Coding.eot?#iefix') format('embedded-opentype'),
+         url('D2Coding.woff2') format('x-woff2'),
+         url('D2Coding.woff') format('woff'),
+         url('D2Coding.ttf') format('truetype'),
+         url('D2Coding.svg') format('svg');
+  }
+  @font-face {
+    font-family: 'D2 coding';
+    font-style: normal;
+    font-weight: 700;
+    src: url('D2CodingBold.eot');
+    src: local('※'), local('D2Coding Bold'),
+         url('D2CodingBold.eot?#iefix') format('embedded-opentype'),
+         url('D2CodingBold.woff2') format('x-woff2'),
+         url('D2CodingBold.woff') format('woff'),
+         url('D2CodingBold.ttf') format('truetype'),
+         url('D2CodingBold.svg') format('svg');
+  }
 .fa,
 .fas {
   font-family: 'Font Awesome 5 Free';

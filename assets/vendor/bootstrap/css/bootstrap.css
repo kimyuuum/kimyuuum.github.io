@@ -202,7 +202,7 @@ pre,
 code,
 kbd,
 samp {
-    /* font-family: "D2 coding", "Consolas", monospace; */
+    font-family: "D2 coding", "Consolas", monospace;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 1em;
 }
