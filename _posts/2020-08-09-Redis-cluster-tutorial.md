@@ -84,7 +84,7 @@ Page에 나와있는 Link를 Terminal에 복사하여 간단하게 설치 가능
 $ brew --version
 ```
 
-![image](https://user-images.githubusercontent.com/46887352/89724939-73950a00-da44-11ea-993e-44d145e5edba.png){: width="100"}
+![image](https://user-images.githubusercontent.com/46887352/89724939-73950a00-da44-11ea-993e-44d145e5edba.png){: width="100%"}
 
 `$ brew --version` 을 통해 설치를 확인 할 수 있다.
 
@@ -114,7 +114,7 @@ $ brew services stop redis #stop redis
 $ redis-server
 ```
 
-![image](https://user-images.githubusercontent.com/46887352/89724945-890a3400-da44-11ea-9583-f1cd41478a40.png){: width="100"}
+![image](https://user-images.githubusercontent.com/46887352/89724945-890a3400-da44-11ea-9583-f1cd41478a40.png){: width="100%"}
 
 위와 같이 실행 가능합니다.
 <br>
@@ -253,7 +253,7 @@ $ redis-cli --cluster info ip:port
 <br>
 위 명령어를 이용하여 cluster 정보를 조회 가능하다.
 
-![image](https://user-images.githubusercontent.com/46887352/89724947-91626f00-da44-11ea-9210-2ce2ee759ba3.png){: width="100"}
+![image](https://user-images.githubusercontent.com/46887352/89724947-91626f00-da44-11ea-9210-2ce2ee759ba3.png){: width="100%"}
 <br>
 <br>
 <br>
