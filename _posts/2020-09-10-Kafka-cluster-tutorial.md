@@ -13,8 +13,9 @@ category: [Programming]
 # kafka-cluster-tutorial
 
 Create simple kafka cluster easily!
-</br>
-</br>
+
+<br>
+<br>
 
 ### Download
 
@@ -22,14 +23,14 @@ Create simple kafka cluster easily!
 
 my version is  `2.12-2.3.0`
 
-</br>
-</br>
+<br>
+<br>
 
 ### Start Server
 
 Before start **kafka**, we need to start zookeeper first.
-</br>
-</br>
+<br>
+<br>
 
 ### config files
 
@@ -40,8 +41,8 @@ $ vi config/zookeeper.properties
 $ vi config/server.properties
 ```
 
-</br>
-</br>
+<br>
+<br>
 
 ### start zookeeper & kafka
 
@@ -54,10 +55,9 @@ you can see messages
 
 ![image](https://user-images.githubusercontent.com/46887352/90518317-8f658200-e1a1-11ea-9935-8d7e8a870e4f.png)
 
-
-</br>
-</br>
-</br>
+<br>
+<br>
+<br>
 
 ### Multi broker cluster
 
@@ -67,7 +67,7 @@ you can see messages
 $ cp config/server.properties config/server1.properties
 $ cp config/server.properties config/server2.properties
 ```
-</br>
+<br>
 
 **2. Modify each config files**
 
@@ -84,7 +84,7 @@ config/server2.properties:
 	listeners=PLAINTEXT://:9095
 	log.dirs=/tmp/kafka-logs-2
 ```
-</br>
+<br>
 
 **3. Start Replicated nodes** 
 
@@ -93,7 +93,7 @@ $ bin/kafka-server-start.sh config/server1.properties &
 $ bin/kafka-server-start.sh config/server2.properties &
 ```
 
-</br>
+<br>
 
 **4. Create new topic** 
 
@@ -101,12 +101,17 @@ $ bin/kafka-server-start.sh config/server2.properties &
 $ bin/kafka-topics.sh --create --bootstrap-server localhost:9093 --replication-factor 3 --partitions 1 --topic my-replicated-topic
 ```
 
-`kafka-topics.sh` : topic execute file </br>
-`replication-factor` : can decide replica count </br>
-`partitions` : can decide partition count </br>
+`kafka-topics.sh` : topic execute file 
 
+<br>
+`replication-factor` : can decide replica count 
 
-</br>
+<br>
+`partitions` : can decide partition count 
+
+<br>
+
+<br>
 
 
 **5. Check topic** 
@@ -126,15 +131,15 @@ $ bin/kafka-topics.sh --describe --bootsrap-server localhost:9093 --topic my-rep
 
 `zookeeper port`  ⇒ 2182
 
-</br>
-</br>
+<br>
+<br>
 
 Ref.
 
 [Apache Kafka](https://kafka.apache.org/documentation/)
 
-</br>
-</br>
+<br>
+<br>
 
 ### Useful Commands
 
@@ -154,7 +159,6 @@ $ bin/kafka-server-start.sh config/server.properties &
 $ ./bin/kafka-topics.sh --list --bootstrap-server localhost:9093
 
 ```
-</br>
-</br>
+<br><br>
 
-</br>
+<br>
