@@ -53,7 +53,7 @@ $ bin/kafka-server-start.sh
 
 you can see messages
 
-![image](https://user-images.githubusercontent.com/46887352/90518317-8f658200-e1a1-11ea-9935-8d7e8a870e4f.png)
+![image](https://user-images.githubusercontent.com/46887352/90518317-8f658200-e1a1-11ea-9935-8d7e8a870e4f.png){: width="100%"}
 
 <br>
 <br>
@@ -120,7 +120,7 @@ $ bin/kafka-topics.sh --create --bootstrap-server localhost:9093 --replication-f
 $ bin/kafka-topics.sh --describe --bootsrap-server localhost:9093 --topic my-replicated-topic
 ```
 
-![image](https://user-images.githubusercontent.com/46887352/90518333-98565380-e1a1-11ea-8f01-4bde16f4c520.png)
+![image](https://user-images.githubusercontent.com/46887352/90518333-98565380-e1a1-11ea-8f01-4bde16f4c520.png){: width="100%"}
 
 
 `[broker.id](http://broker.id)` : cluster에서 각 노드의 식별 가능한 영구적인 id, broker가 여러개가 되면, leader node가 생성된다. 
